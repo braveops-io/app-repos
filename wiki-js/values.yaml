@@ -1,0 +1,16 @@
+name: wikijs
+image: braveops/wikijs:latest
+memory: low
+cpu: low
+
+braveops:
+  tags: 
+    - wikijs
+    - low
+    - date
+    - userid
+  id:
+    - 1234-1234-22333
+  repo: github.com/braveops/app-repos/wikijs
+
+

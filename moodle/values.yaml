@@ -1,0 +1,16 @@
+name: moodle
+image: braveops/moodle:latest
+memory: low
+cpu: low
+
+braveops:
+  tags: 
+    - wordpress
+    - low
+    - date
+    - userid
+  id:
+    - 1234-1234-22333
+  repo: github.com/braveops/helmrepo/moodle
+
+
