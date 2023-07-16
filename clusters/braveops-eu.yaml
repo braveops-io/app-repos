@@ -1,0 +1,11 @@
+name: braveops
+#can eu/us/other 
+locations: eu
+provider: aws
+#level of operations can be normal/medium/high
+level: normal
+#multiply with $1 for base price
+priceIndex: 1
+domains:
+  - apps.braveops.io
+

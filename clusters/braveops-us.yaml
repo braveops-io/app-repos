@@ -1,0 +1,12 @@
+name: braveops
+#can eu/us/other 
+locations: us
+#the k8s provider 
+provider: aws
+#level of operations can be normal/medium/high
+level: normal
+#multiply with $1 for base price
+priceIndex: 1,5
+domains:
+  - apps.braveops.io
+
